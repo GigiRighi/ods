@@ -24,4 +24,17 @@ body {
       line-height: 1.6;
     }
 
-   
+   .gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.gallery-container img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
